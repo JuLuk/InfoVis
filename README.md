@@ -11,5 +11,3 @@ Collaborators:\
   Sadush ZEQIRI, 11917666\
   Joanna ZAMIECHOWSKA, 11936038
   
-
-Creating a Dashboard with several interactive visualization types and charts/tables to manually explore by the user.
