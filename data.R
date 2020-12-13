@@ -48,7 +48,7 @@ SFB_data$TimeStamp <- NULL
 SFB_DATA <- data.frame(SFB_data) 
 
 
-write.csv(SFB_DATA,'C:/Users/user/Documents/SFB_DATA.csv', row.names = FALSE)
+
 
 year <- format(as.Date(SFB_DATA$Date, format="%Y/%m/%d"),"%Y")
 month <- format(as.Date(SFB_DATA$Date, format="%Y/%m/%d"),"%m")
@@ -62,3 +62,4 @@ SFB_DATA["Day"] <- day
 SFB_DATA$Date <- NULL
 
 head(SFB_DATA)
+write.csv(SFB_DATA,'C:/Users/user/Documents/SFB_DATA.csv', row.names = FALSE)
