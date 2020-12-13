@@ -1,4 +1,7 @@
-## Information Visualization 
+## Information Visualization Assignment 2: Dashboard Implementation
+## Assignment 2:
+Creating Interactive Visualizations\
+
 ## Assignment 2:
 Creating Interactive Visualizations\
 
