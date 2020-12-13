@@ -1,5 +1,12 @@
 # Information Visualization Assignment 2: Creating Interactive Visualizations
 
+## Group 11
+Collaborators:\
+  Judith Lukács 01125956\
+  Sadush ZEQIRI, 11917666\
+  Joanna ZAMIECHOWSKA, 11936038
+
+
 ## Chosen Tools 
 R programming language, R Shiny Application, Leaflet 
 
@@ -9,12 +16,7 @@ Interactive Map for Data Selection and basic data exploration
 ## Charting Tab
 More complex graphing and visualizations for specific insights to selected variables
 
-## Group 11
-Collaborators:\
-  Judith Lukács 01125956\
-  Sadush ZEQIRI, 11917666\
-  Joanna ZAMIECHOWSKA, 11936038
-  
+
 ## About
 Contains details about the Assignment 2 Dashboard Implementation 
 
