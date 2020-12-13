@@ -6,7 +6,7 @@ data <- read.csv("SFBay.csv", sep=";")
 
 colSums(is.na(data))
 
-# columns to remove that dont have values:
+# columns to remove that have  more than 90% of values missing:
 
 #  Discrete.Chlorophyll
 # Chlorophyll.a.a.PHA 
