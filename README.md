@@ -3,9 +3,14 @@
 Creating Interactive Visualizations\
 
 ## Assignment 2:
-Creating Interactive Visualizations\
+### Creating Interactive Visualizations\
 
-Chosen Tools: R Shiny Application
+##### Chosen Tools: 
+R in the RStudio IDE 
+R Shiny Application 
+Leaflet 
+
+
 
 
 ### Group 11
