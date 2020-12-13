@@ -32,7 +32,7 @@ data$Nitrite <- NULL
 data$ Ammonium <- NULL
 data$Phosphate <- NULL
 data$Silicate <- NULL
- 
+
 
 SFB_data <- na.omit(data)
 
@@ -45,11 +45,20 @@ head(SFB_data)
 
 SFB_data$TimeStamp <- NULL
 
-SFB_data
-
-colSums(is.na(SFB_data))
-
-write.csv(SFB_data,'SFB_DATA.csv')
+SFB_DATA <- data.frame(SFB_data) 
 
 
+write.csv(SFB_DATA,'C:/Users/user/Documents/SFB_DATA.csv', row.names = FALSE)
 
+year <- format(as.Date(SFB_DATA$Date, format="%Y/%m/%d"),"%Y")
+month <- format(as.Date(SFB_DATA$Date, format="%Y/%m/%d"),"%m")
+day <- format(as.Date(SFB_DATA$Date, format="%Y/%m/%d"),"%d")
+
+
+SFB_DATA["Year"] <- year
+SFB_DATA["Month"] <- month
+SFB_DATA["Day"] <- day
+
+SFB_DATA$Date <- NULL
+
+head(SFB_DATA)
