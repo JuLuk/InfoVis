@@ -1,7 +1,4 @@
-# Information Visualization Assignment 2: Dashboard Implementation
-
-## Assignment 2:
-Creating Interactive Visualizations\
+# Information Visualization Assignment 2: Creating Interactive Visualizations
 
 ## Chosen Tools 
 R programming language, R Shiny Application, Leaflet 
